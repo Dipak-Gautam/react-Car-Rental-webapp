@@ -1,4 +1,6 @@
 import React from "react";
+import { MdLightMode } from "react-icons/md";
+import { BsMoonStars } from "react-icons/bs";
 
 const Navbar = () => {
   return (
@@ -43,6 +45,10 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
+          </div>
+          <div>
+            <MdLightMode />
+            <BsMoonStars />
           </div>
         </div>
       </div>
