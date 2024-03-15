@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/Hero";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import About from "./components/About";
 function App() {
   // dark mode
   const [theme, settheme] = useState(
@@ -35,6 +36,7 @@ function App() {
     <>
       <Navbar theme={theme} settheme={settheme} />
       <Hero theme={theme} />
+      <About />
     </>
   );
 }
