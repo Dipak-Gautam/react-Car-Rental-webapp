@@ -12,11 +12,7 @@ const Hero = ({ theme }) => {
           >
             <img
               className="relative -z-10  max-h-[520px] sm:scale-125 drop-shadow-[2px_20px_6px_rgba(0,0,0,0.50)] "
-              src={
-                theme === "dark"
-                  ? "https://car-rental-tcj.netlify.app/assets/car-ZEOhyDK7.png"
-                  : "https://car-rental-tcj.netlify.app/assets/banner-car-OqntjgSL.png"
-              }
+              src={theme === "dark" ? "/darkmodecar.png" : "/lightmodecar.png"}
               alt=""
             />
           </div>
