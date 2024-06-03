@@ -32,7 +32,7 @@ const About = () => {
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Quaerat, quo!
               </p>
-              <button className="button-outline" data-aos="fade-up">
+              <button className="button-outline " data-aos="fade-up">
                 Get started
               </button>
             </div>

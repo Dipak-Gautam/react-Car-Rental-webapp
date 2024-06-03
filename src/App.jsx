@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import About from "./components/About";
 import Services from "./components/Services";
+import Carlist from "./components/Carlist/Carlist";
 function App() {
   // dark mode
   const [theme, settheme] = useState(
@@ -39,6 +40,7 @@ function App() {
       <Hero theme={theme} />
       <About />
       <Services />
+      <Carlist />
     </>
   );
 }

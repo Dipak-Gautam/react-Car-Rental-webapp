@@ -4,6 +4,6 @@
 
 @layer components {
   .button-outline {
-    @apply rounded-md border-primary border-2 hover:bg-primary/80 hover:text-black duration-500 py-2 px-6 text-primary;
+    @apply rounded-md border-primary border-2 hover:bg-primary/80 hover:text-black duration-700 py-2 px-6 text-primary;
   }
 }
