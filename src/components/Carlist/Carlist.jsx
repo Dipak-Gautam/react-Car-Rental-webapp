@@ -45,7 +45,6 @@ const Carlist = () => {
                   <img
                     className="w-full h-[150px] object-contain  hover:translate-x-4 duration-500 "
                     src={car.image}
-                    alt=""
                   />
                 </div>
                 <div className="text-orange-400 font-bold font-serif">
