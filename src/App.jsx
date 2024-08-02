@@ -7,6 +7,10 @@ import "aos/dist/aos.css";
 import About from "./components/About";
 import Services from "./components/Services";
 import Carlist from "./components/Carlist/Carlist";
+import Testimonial from "./components/Testimonial/Testimonial";
+import Contact from "./components/ContactUs/Contact";
+import Footer1 from "./components/FooterFile/Footer1";
+
 function App() {
   // dark mode
   const [theme, settheme] = useState(
@@ -41,6 +45,9 @@ function App() {
       <About />
       <Services />
       <Carlist />
+      <Testimonial />
+      <Contact />
+      <Footer1 />
     </>
   );
 }

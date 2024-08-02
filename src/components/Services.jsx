@@ -5,15 +5,15 @@ import { FaPenToSquare } from "react-icons/fa6";
 
 const Services = () => {
   return (
-    <div className="py-14 dark:bg-dark dark:text-white sm:min-h-[600px] sm:grid sm:place-items-center">
+    <div className="py-8 dark:bg-black dark:text-white sm:min-h-[600px] sm:grid sm:place-items-center">
       <div className="container">
-        <div className="pb-12" data-aos="fade-up" data-aos-duration="1500">
+        <div className="pb-5" data-aos="fade-up" data-aos-duration="1500">
           <h1 className="text-3xl font-semibold sm:text-4xl  text-center font-serif pb-4">
             Why choose Us
           </h1>
           <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             <div
-              className="bg-slate-800 text-gray-50 rounded-2xl px-20 py-9 text-center text-xl sm:text-2xl space-y-4 border border-orange-300 hover:bg-yellow-500 dark:bg-gray-200 dark:text-black dark:hover:bg-yellow-300"
+              className="bg-slate-800 text-gray-50 rounded-2xl px-20 py-7 text-center text-xl sm:text-2xl space-y-4 border border-orange-300 hover:bg-yellow-500 dark:bg-gray-200 dark:text-black dark:hover:bg-yellow-300"
               data-aos="fade-right"
             >
               <p>

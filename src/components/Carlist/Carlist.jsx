@@ -6,24 +6,27 @@ const Carlist = () => {
       name: "Bmw",
       image: "asset/carlist/bmw.png",
       price: "15000/hr",
+      delay: "0",
     },
     {
       name: "Scorpio",
       image: "asset/carlist/scorpio.png",
       price: "800/hr",
+      delay: "500",
     },
     {
       name: "Lamborgini",
       image: "asset/carlist/car2.png",
       price: "8000/hr",
+      delay: "1000",
     },
   ];
   return (
-    <div className="dark:bg-dark dark:text-white  pb-32">
+    <div className="dark:bg-dark dark:text-white pb-16 ">
       <div className="container">
         <h1
           data-aos="fade-up"
-          className="text-3xl sm:text-4xl font-semibold font-serif text-center underline pb-4 "
+          className="text-3xl sm:text-4xl font-semibold font-serif text-center underline py-4 "
         >
           Available Cars
         </h1>
@@ -32,11 +35,12 @@ const Carlist = () => {
           suites you
         </p>
         <div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 ">
             {Carlist.map((car) => (
               <div
-                // data-aos="fade-out"
-                className="p-4 border-2 border-gray-400 rounded-md hover:border-primary"
+                data-aos="fade-up"
+                data-aos-duration={car.delay}
+                className="p-4 border-2 border-gray-400 rounded-md hover:border-primary mb-7"
               >
                 <div>
                   <p className="font-semibold">pokhara</p>
