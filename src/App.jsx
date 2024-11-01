@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-
+import { useEffect, useRef, useState } from "react";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/Hero";
 import AOS from "aos";
@@ -38,13 +37,26 @@ function App() {
     AOS.refresh();
   }, []);
 
+  const carRef = useRef(null);
+  const aboutRef = useRef(null);
+
   return (
     <>
-      <Navbar theme={theme} settheme={settheme} />
+      <Navbar
+        theme={theme}
+        settheme={settheme}
+        carRef={carRef}
+        aboutRef={aboutRef}
+      />
       <Hero theme={theme} />
-      <About />
+      <div ref={aboutRef}>
+        <About />
+      </div>
+
       <Services />
-      <Carlist />
+      <div ref={carRef}>
+        <Carlist />
+      </div>
       <Testimonial />
       <Contact />
       <Footer1 />

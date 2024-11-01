@@ -2,7 +2,7 @@ import React from "react";
 import { MdLightMode } from "react-icons/md";
 import { BsMoonStars } from "react-icons/bs";
 
-const Navbar = ({ theme, settheme }) => {
+const Navbar = ({ theme, settheme, carRef, aboutRef }) => {
   return (
     <nav className="shadow-md  dark:bg-black dark:text-white duration-500">
       <div className="container">
@@ -21,28 +21,40 @@ const Navbar = ({ theme, settheme }) => {
                 </a>
               </li>
               <li>
-                <a
-                  className="text-slate-800  py-1 no-underline  hover:border-b-2 hover:text-primary transition-colors transition-duration-500 font-medium dark:text-white dark:hover:text-primary"
-                  href="#"
+                <button
+                  className="text-slate-800  py-1 no-underline border-b-2 border-transparent hover:border-white   hover:border-b-2 hover:text-primary transition-colors transition-duration-500 font-medium dark:text-white dark:hover:text-primary"
+                  onClick={() =>
+                    carRef.current?.scrollIntoView({
+                      behaviour: "smooth",
+                    })
+                  }
                 >
                   Cars
-                </a>
+                </button>
               </li>
               <li>
-                <a
-                  className="text-slate-800  py-1 no-underline  hover:border-b-2 hover:text-primary transition-colors transition-duration-500 font-medium dark:text-white  dark:hover:text-primary"
-                  href="#"
+                <button
+                  className="text-slate-800  py-1 no-underline border-b-2 border-transparent hover:border-white   hover:border-b-2 hover:text-primary transition-colors transition-duration-500 font-medium dark:text-white dark:hover:text-primary"
+                  onClick={() =>
+                    aboutRef.current?.scrollIntoView({
+                      behaviour: "smooth",
+                    })
+                  }
                 >
                   About
-                </a>
+                </button>
               </li>
               <li>
-                <a
-                  className="text-slate-800  py-1 no-underline  dark:text-white hover:border-b-2 hover:text-primary transition-colors transition-duration-500 font-medium dark:hover:text-primary"
-                  href="#"
+                <button
+                  className="text-slate-800  py-1 no-underline border-b-2 border-transparent hover:border-white   hover:border-b-2 hover:text-primary transition-colors transition-duration-500 font-medium dark:text-white dark:hover:text-primary"
+                  onClick={() =>
+                    carRef.current?.scrollIntoView({
+                      behaviour: "smooth",
+                    })
+                  }
                 >
                   Booking
-                </a>
+                </button>
               </li>
             </ul>
           </div>
