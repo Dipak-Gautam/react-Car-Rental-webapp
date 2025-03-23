@@ -1,9 +1,47 @@
-# React + Vite
+Car Central 🚗💨
+A modern car dealership website built with React, Vite, Tailwind CSS, and AOS (Animate on Scroll). This project showcases various car models, their specifications, and a seamless user experience with smooth animations.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+🔥 Fast & Optimized – Built with Vite for lightning-fast performance
 
-Currently, two official plugins are available:
+🎨 Responsive UI – Styled with Tailwind CSS for a modern look
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-this is not completed yet there is still backend remaining and many more functional components remaining 
+⚡ Smooth Animations – Integrated AOS for engaging scroll animations
+
+🏎️ Car Listings – Display detailed car models and specifications
+
+📱 Mobile-Friendly – Fully responsive for all screen sizes
+
+🔍 Search & Filter – Easily find the perfect car
+
+📩 Contact Form – Get in touch with the dealership
+
+🛠️ Tech Stack
+Frontend: React.js + Vite
+
+Styling: Tailwind CSS
+
+Animations: AOS (Animate on Scroll)
+
+🚀 Installation & Setup
+Clone the repository
+
+sh
+Copy code
+git clone https://github.com/yourusername/car-central.git
+cd car-central
+Install dependencies
+
+sh
+Copy code
+npm install
+Start the development server
+
+sh
+Copy code
+npm run dev
+Build for production
+
+sh
+Copy code
+npm run build
